@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>CULT - Darkroom</title>
+    <item>
+      <title>CULT - Darkroom 0.5.38</title>
+      <pubDate>Wed, 18 Nov 2026 14:23:04 +0200</pubDate>
+      <sparkle:version>0.5.38</sparkle:version>
+      <sparkle:shortVersionString>0.5.38</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<ul>
+<li><b>Colour per photo</b> *(off)*: LAB › Grey balance › Colour per photo. After the roll&#x27;s balance, each photo&#x27;s own colour cast is read from its near-grey areas and taken out, as a lab corrects every frame. Pale skies are left alone. <code>levels.photo_cast</code> (0 = off … 1).</li>
+<li><b>Colour per photo › How: Strong</b> *(Colour per photo itself stays off)*: every cast taken out fully, warm included, also on photos with little grey in them (flash on a black background). It is what you get when you turn Colour per photo on; pick Gentle for golden-hour rolls, where warm light is the scene. <code>levels.photo_cast_mode=strong</code>.</li>
+<li><b>Lab machine &quot;Noritsu — fitted to lab scans&quot;</b> *(off)*: LAB › Lab machine. The look of a lab&#x27;s own Noritsu scans, measured on 112 photos of four Euphoria 400 rolls that were scanned both ways: lighter and warmer, softer contrast with open shadows, richer colour, redder skin. Unlike the other machines it is fitted, not tuned by eye. Strength sets how much of it you get.</li>
+<li>Windows: Analyze roll failed with &quot;&#x27;lazy_import&#x27; object is not callable&quot;. The Windows build had been made with Python 3.15 instead of 3.12; it now uses 3.12 / 3.13 and refuses to build with any other version.</li>
+<li>Windows builds are published in the public repo kyriazo/darkroom-releases (installer + portable zip), next to the Mac ones.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/kyriazo/darkroom-releases/releases/download/v0.5.38/Darkroom-0.5.38-arm64.zip" type="application/octet-stream" sparkle:edSignature="n03WBRUSatXAIoLNIjgo623NZoM69uiiX4+UQO0sU5jX/Hp/1ntwPg2mhb+/BT1/TYxlUpCaRDqpM6rj0eK3Bw==" length="107889890" />
+    </item>
+  </channel>
+</rss>
